@@ -1,0 +1,22 @@
+{
+  "name": "mnemepage",
+  "version": "1.0.0",
+  "description": "Mnemesong page manager",
+  "main": "./js/src/src.js",
+  "scripts": {
+    "tsc": "tsc",
+    "test": "mocha ./js/test/**/*.js",
+    "build-dev": "tsc && browserify ./js/test-app/app.js > acc-test/bundle.js"
+  },
+  "keywords": [],
+  "author": "Anatoly Starodubtsev <tostar74@mail.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "typescript": "^4.9.4",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^18.11.18",
+    "browserify": "^17.0.0"
+  },
+  "dependencies": {}
+}
